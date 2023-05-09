@@ -43,50 +43,43 @@ SPRINT 2
 ![imagen](https://github.com/betangil238/Foro/assets/121052500/9e2adc9f-990f-4f3a-9919-bb5549b0ad95)
 
 2 - En segundo lugar podremos obtener todos los topicos creados o un topico especifico consultado por ID
-<p align="center" >
+
 ![imagen](https://github.com/betangil238/Foro/assets/121052500/4fb503b3-f655-41b7-bd6e-fd512e2a7edf)
- </p>
  
- <p align="center" >
+
 ![imagen](https://github.com/betangil238/Foro/assets/121052500/265fb88b-30b3-490a-86f3-95ce9e15dbad)
- </p>
+
 
 
 3 - En tercer lugar podremos actualizar un topico especificando el id en el cuerpo JSON, o directamente en la ruta especificando el id
 
-<p align="center" >
 ![imagen](https://github.com/betangil238/Foro/assets/121052500/3722b757-a7a7-4183-a242-ab948a90e8db)
 
-</p>
 
-<p align="center" >
-    ![imagen](https://github.com/betangil238/Foro/assets/121052500/4c502bae-41d4-4022-8dc4-ecb6e93702c8)
 
-</p>
+![imagen](https://github.com/betangil238/Foro/assets/121052500/4c502bae-41d4-4022-8dc4-ecb6e93702c8)
+
 
 4 - finalmente tenemos la opcion de eliminar un topico
 
 En este caso verificamos que el topico con id 11 existe en la base de datos
-<p align="center" >
+
 ![imagen](https://github.com/betangil238/Foro/assets/121052500/16edae7c-36aa-4a88-93e9-4eefb952a111)
 
-</p>
-
+<p align="center" >
 Al eliminarlo nos retorna un codigo de protocolo HTTP 204 (¨Objeto eliminado con exito¨)
-<p align="center" >
-   ![imagen](https://github.com/betangil238/Foro/assets/121052500/4b932922-7f93-473e-8c27-cb7c9bfe24ca)
-
 </p>
 
+![imagen](https://github.com/betangil238/Foro/assets/121052500/4b932922-7f93-473e-8c27-cb7c9bfe24ca)
+
+<p align="center" >
 finalmente lo verificamos consultandolo con los metodos anteriormente establecidos y con el manejo de errores adecuado
-
-<p align="center" >
-  ![imagen](https://github.com/betangil238/Foro/assets/121052500/f45ac0af-287e-4454-94c7-4d19caa0cb33)
-
 </p>
 
+  ![imagen](https://github.com/betangil238/Foro/assets/121052500/f45ac0af-287e-4454-94c7-4d19caa0cb33)
+<p align="center" >
 en este caso obtenemos un codigo 404 que nos notifica efecticamente que se elimino correctamente
-
+</p>
 ## 🚧SPRINT 2
 
 
