@@ -89,6 +89,9 @@ en este caso obtenemos un codigo 404 que nos notifica efecticamente que se elimi
 
 💙 <strong>Insignia de culminacion SPRINT 1</strong></br>
 
+![imagen](https://github.com/betangil238/Foro/assets/121052500/d657b0eb-16be-428d-b174-f600a3d48875)
+
+
 💙 <strong>Insignia de culminacion SPRINT 2</strong></br>
 
 
