@@ -40,9 +40,7 @@ SPRINT 2
 
 1 - En primer lugar permite la creacion de topicos, mediante el ingreso obligatorio de titulo, mensaje, autor y curso
 
-<p align="center" >
 ![imagen](https://github.com/betangil238/Foro/assets/121052500/9e2adc9f-990f-4f3a-9919-bb5549b0ad95)
-</p>
 
 2 - En segundo lugar podremos obtener todos los topicos creados o un topico especifico consultado por ID
 <p align="center" >
