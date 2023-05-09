@@ -41,28 +41,28 @@ SPRINT 2
 1 - En primer lugar permite la creacion de topicos, mediante el ingreso obligatorio de titulo, mensaje, autor y curso
 
 <p align="center" >
-  ![post](https://github.com/betangil238/Foro/assets/121052500/4f81f845-00c7-4344-b636-a405dbfab655)
+![imagen](https://github.com/betangil238/Foro/assets/121052500/9e2adc9f-990f-4f3a-9919-bb5549b0ad95)
 </p>
 
 2 - En segundo lugar podremos obtener todos los topicos creados o un topico especifico consultado por ID
 <p align="center" >
-  ![get1](https://github.com/betangil238/Foro/assets/121052500/b1621a22-f18e-4a09-8574-f90894a35fc9)
+![imagen](https://github.com/betangil238/Foro/assets/121052500/4fb503b3-f655-41b7-bd6e-fd512e2a7edf)
  </p>
  
  <p align="center" >
-  ![get2](https://github.com/betangil238/Foro/assets/121052500/160d952f-0a51-42f3-b401-158d0cdbfde0)
+![imagen](https://github.com/betangil238/Foro/assets/121052500/265fb88b-30b3-490a-86f3-95ce9e15dbad)
  </p>
 
 
 3 - En tercer lugar podremos actualizar un topico especificando el id en el cuerpo JSON, o directamente en la ruta especificando el id
 
 <p align="center" >
-![put1](https://github.com/betangil238/Foro/assets/121052500/b82d697a-00cd-4ce3-830d-b610dc29e750)
+![imagen](https://github.com/betangil238/Foro/assets/121052500/3722b757-a7a7-4183-a242-ab948a90e8db)
 
 </p>
 
 <p align="center" >
-    ![put2](https://github.com/betangil238/Foro/assets/121052500/0d4a7c9d-810a-47b3-90df-f75c7144f9a6)
+    ![imagen](https://github.com/betangil238/Foro/assets/121052500/4c502bae-41d4-4022-8dc4-ecb6e93702c8)
 
 </p>
 
@@ -70,20 +70,20 @@ SPRINT 2
 
 En este caso verificamos que el topico con id 11 existe en la base de datos
 <p align="center" >
-   ![delete](https://github.com/betangil238/Foro/assets/121052500/c48e21ee-88ed-4955-89e1-c397a3eed3d2)
+![imagen](https://github.com/betangil238/Foro/assets/121052500/16edae7c-36aa-4a88-93e9-4eefb952a111)
 
 </p>
 
 Al eliminarlo nos retorna un codigo de protocolo HTTP 204 (¨Objeto eliminado con exito¨)
 <p align="center" >
-    ![delete1](https://github.com/betangil238/Foro/assets/121052500/0bd6bbea-7ad7-437e-8a7b-7a1499385a19)
+   ![imagen](https://github.com/betangil238/Foro/assets/121052500/4b932922-7f93-473e-8c27-cb7c9bfe24ca)
 
 </p>
 
 finalmente lo verificamos consultandolo con los metodos anteriormente establecidos y con el manejo de errores adecuado
 
 <p align="center" >
-    ![delete2](https://github.com/betangil238/Foro/assets/121052500/c1e06114-8b4e-48b4-be7c-6cd09a766801)
+  ![imagen](https://github.com/betangil238/Foro/assets/121052500/f45ac0af-287e-4454-94c7-4d19caa0cb33)
 
 </p>
 
