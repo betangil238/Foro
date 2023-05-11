@@ -2,8 +2,8 @@ package com.alura.foro.respuesta;
 
 import java.time.LocalDateTime;
 
+import com.alura.foro.autor.Autor;
 import com.alura.foro.topico.Topico;
-import com.alura.foro.usuario.Usuario;
 
 import jakarta.persistence.Embeddable;
 import lombok.AllArgsConstructor;
@@ -18,7 +18,7 @@ public @Data class Respuesta {
 	private String mensaje;
 	private Topico topico;
 	private LocalDateTime fechaCreacion = LocalDateTime.now();
-	private Usuario autor;
+	private Autor autor;
 	private Boolean solucion = false;
 
 	@Override
@@ -78,11 +78,11 @@ public @Data class Respuesta {
 		this.fechaCreacion = fechaCreacion;
 	}
 
-	public Usuario getAutor() {
+	public Autor getAutor() {
 		return autor;
 	}
 
-	public void setAutor(Usuario autor) {
+	public void setAutor(Autor autor) {
 		this.autor = autor;
 	}
 

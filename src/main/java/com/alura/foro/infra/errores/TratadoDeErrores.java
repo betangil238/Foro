@@ -1,4 +1,4 @@
-package com.alura.foro.errores;
+package com.alura.foro.infra.errores;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.FieldError;
 import org.springframework.web.bind.MethodArgumentNotValidException;

@@ -2,9 +2,11 @@ package com.alura.foro.topico;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
+
+import com.alura.foro.autor.Autor;
 import com.alura.foro.curso.Curso;
 import com.alura.foro.respuesta.Respuesta;
-import com.alura.foro.usuario.Usuario;
+
 import jakarta.persistence.Embedded;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
@@ -32,7 +34,7 @@ public @Data class Topico {
 	@Enumerated(EnumType.STRING)
 	private StatusTopico status = StatusTopico.NO_RESPONDIDO;
 	@Embedded
-	private Usuario autor;
+	private Autor autor;
 	@Embedded
 	private Curso curso;
 	@Embedded
@@ -109,11 +111,11 @@ public @Data class Topico {
 		this.status = status;
 	}
 
-	public Usuario getAutor() {
+	public Autor getAutor() {
 		return autor;
 	}
 
-	public void setAutor(Usuario autor) {
+	public void setAutor(Autor autor) {
 		this.autor = autor;
 	}
 
@@ -137,7 +139,7 @@ public @Data class Topico {
 		this.titulo = datos.titulo();
 		this.mensaje = datos.mensaje();
 		this.curso= new Curso(datos.curso());
-		this.autor = new Usuario(datos.autor());
+		this.autor = new Autor(datos.autor());
 	}
 
 	public void ActualizarDatos(DatosActualizarTopico datos) {

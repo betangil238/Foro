@@ -1,4 +1,4 @@
-package com.alura.foro.usuario;
+package com.alura.foro.autor;
 
 import jakarta.persistence.Embeddable;
 import lombok.AllArgsConstructor;
@@ -8,9 +8,9 @@ import lombok.NoArgsConstructor;
 @Embeddable
 @NoArgsConstructor
 @AllArgsConstructor
-public @Data class Usuario {
+public @Data class Autor {
 
-//	private Long idusuario;
+//	private Long idautor;
 	private String nombre;
 	private String email;
 	private String contrasena;
@@ -19,7 +19,7 @@ public @Data class Usuario {
 //	public int hashCode() {
 //		final int prime = 31;
 //		int result = 1;
-//		result = prime * result + ((idusuario == null) ? 0 : idusuario.hashCode());
+//		result = prime * result + ((idautor == null) ? 0 : idautor.hashCode());
 //		return result;
 //	}
 //
@@ -31,21 +31,21 @@ public @Data class Usuario {
 //			return false;
 //		if (getClass() != obj.getClass())
 //			return false;
-//		Usuario other = (Usuario) obj;
-//		if (idusuario == null) {
-//			if (other.idusuario != null)
+//		Autor other = (Autor) obj;
+//		if (idautor == null) {
+//			if (other.idautor != null)
 //				return false;
-//		} else if (!idusuario.equals(other.idusuario))
+//		} else if (!idautor.equals(other.idautor))
 //			return false;
 //		return true;
 //	}
 //
 //	public Long getId() {
-//		return idusuario;
+//		return idautor;
 //	}
 //
 //	public void setId(Long id) {
-//		this.idusuario = id;
+//		this.idautor = id;
 //	}
 
 	public String getNombre() {
@@ -72,17 +72,17 @@ public @Data class Usuario {
 		this.contrasena = contrasena;
 	}
 
-	public Usuario(DatosUsuario autor) {
+	public Autor(DatosAutor autor) {
 		this. nombre=autor.nombre();
 		this.email=autor.email();
 	}
 	
-	public Usuario(Usuario autor) {
+	public Autor(Autor autor) {
 		this. nombre=autor.getNombre();
 		this.email=autor.getEmail();
 	}
 
-	public Usuario ActualizarDatos(DatosUsuario autor) {
+	public Autor ActualizarDatos(DatosAutor autor) {
 			this. nombre=autor.nombre();
 			this.email=autor.email();
 		return this;
