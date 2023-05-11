@@ -81,6 +81,26 @@ finalmente lo verificamos consultandolo con los metodos anteriormente establecid
 en este caso obtenemos un codigo 404 que nos notifica efecticamente que se elimino correctamente
 </p>
 ## 🚧SPRINT 2
+1 - En este segundo sprint se nos solicito mediante spring security permitir la autenticacion de un cliente mediante
+usuario y contrasena a fin de validar si este se encuentra activo en la base de datos.
+Para este caso usamos un usuario : "admin" y contrasena: "admin" , en caso de no ingresar estos datos recibira un error 403
+
+![imagen](https://github.com/betangil238/Foro/assets/121052500/a19fd5d1-9c5e-4f81-8076-06359ebe0a64)
+
+![imagen](https://github.com/betangil238/Foro/assets/121052500/dd075a0c-77f4-4c78-8e04-1085032b2c9e)
+
+
+
+2 - Al autenticarse el usuario, mediante JWT se le genera un token para ser implementado en las solicitudes del SPRINT 1, una vez ingresado este token
+se le da la autorizacion al usuario para realizar solicitudes CRUD
+
+![imagen](https://github.com/betangil238/Foro/assets/121052500/9917dbe8-6c26-4455-ba35-ab82c8231933)
+
+De igual forma, si no se ingresa este token, se obtendra un 403
+
+![imagen](https://github.com/betangil238/Foro/assets/121052500/a241909c-b0c6-4137-bd8c-0f04fda4af35)
+
+
 
 
 💙 <strong>Linkedin</strong></br>
