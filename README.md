@@ -80,7 +80,11 @@ finalmente lo verificamos consultandolo con los metodos anteriormente establecid
 <p align="center" >
 en este caso obtenemos un codigo 404 que nos notifica efecticamente que se elimino correctamente
 </p>
+
+
 ## 🚧SPRINT 2
+
+
 1 - En este segundo sprint se nos solicito mediante spring security permitir la autenticacion de un cliente mediante
 usuario y contrasena a fin de validar si este se encuentra activo en la base de datos.
 Para este caso usamos un usuario : "admin" y contrasena: "admin" , en caso de no ingresar estos datos recibira un error 403
